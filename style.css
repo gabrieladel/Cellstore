@@ -3,3 +3,18 @@ h1{
     text-align: center;
     background-color: #cb6ce6;
 }
+h2{
+   color: #cb6ce6;
+   font-size: x-large;
+    text-align: center;
+    padding: 30px;
+}
+.header {
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
