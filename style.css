@@ -1,20 +1,31 @@
-
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Times New Roman', sans-serif;
+}
 h1{
     text-align: center;
     background-color: #cb6ce6;
 }
-h2{
+h2 {
    color: #cb6ce6;
    font-size: x-large;
     text-align: center;
     padding: 30px;
 }
 h3{
-    color: rgb(252, 254, 255);
+    color: white;
+}
+.card{
+    color: aquamarine;
 }
 #Experiencias{
     background-color: #cb6ce6;
     padding: 30px;
+}
+.container{
+    display: center;
 }
 .header {
     font-size: 27px;
@@ -25,14 +36,16 @@ h3{
     font-size: 35px;
     color: #36A0FF;
 }
-#Contacto{ 
+#Contacto { 
     padding: 30px;
 }
   /*Seccion Footer*/
-footer{
-    height: 110px;
-    text-align: center;
-    padding: 30px;
+footer {
     margin: auto;
     background-color: rgb(11, 11, 11);
+    text-align: center;
+    color: #f0eaf1;
+ }
+.redes{
+    margin: 10px;
  }

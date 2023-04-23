@@ -1,7 +1,7 @@
 //elemento donde incoorporo el texto
 const texto = document.getElementById("Nosotros");
 const div = document.createElement("div");
-div.setAttribute("class", "row bg-light text-danger"); //agrego al div la clase
+div.setAttribute("class", "row bg-light text-body-secondary"); //agrego al div la clase
 texto.appendChild(div);//se posiciona dentro del texto(Nosotros)
 //creo el tag legend
 const legend = document.createElement("legend");
