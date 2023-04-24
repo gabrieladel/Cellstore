@@ -3,6 +3,7 @@ html {
 }
 body {
     font-family: 'Times New Roman', sans-serif;
+    
 }
 
 h1{
@@ -58,7 +59,8 @@ section {
 }
 #Contacto { 
     padding: 30px;
-    display: flex;
+    display: flex-start;
+    
 }
   /*Seccion Footer*/
 footer {
@@ -67,6 +69,10 @@ footer {
     text-align: center;
 
  }
+#volver{
+    padding: 30px;
+    display: flex;
+}
 
 .redes{
     margin: 5px;
