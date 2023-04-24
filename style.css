@@ -4,6 +4,7 @@ html {
 body {
     font-family: 'Times New Roman', sans-serif;
 }
+
 h1{
     text-align: center;
     background-color: #cb6ce6;
@@ -17,10 +18,13 @@ h2 {
 h3{
     color: white;
 }
+section {
+    justify-content: center; 
+}
 .card{
     color: aquamarine;
 }
-#Experiencias{
+#experiencias{
     background-color: #cb6ce6;
     padding: 30px;
 }
@@ -44,8 +48,18 @@ footer {
     margin: auto;
     background-color: rgb(11, 11, 11);
     text-align: center;
-    color: #f0eaf1;
+
  }
+
 .redes{
-    margin: 10px;
+    margin: 5px;
+
  }
+ a {
+    text-decoration: none; /*no pude hacer que los iconos cambien de color*/
+    color:#e71010;
+    }
+a:hover{
+    color:#f5edf3;
+}
+
