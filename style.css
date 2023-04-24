@@ -27,6 +27,7 @@ section {
 #experiencias{
     background-color: #cb6ce6;
     padding: 30px;
+    display: flex;
 }
 .container{
     display: center;
@@ -35,13 +36,29 @@ section {
     font-size: 27px;
     padding: 10px;
 }
-
+#video{
+    display: flex;
+    padding: 10px;
+}
+.row {
+    color: #090909;
+}
 .bigicon {
     font-size: 35px;
     color: #36A0FF;
 }
+#Productos{
+    padding: 30px;
+    display: flex;
+}
+#Nosotros{
+    background-color: #cb6ce6;
+    padding: 30px;
+    display: flex;
+}
 #Contacto { 
     padding: 30px;
+    display: flex;
 }
   /*Seccion Footer*/
 footer {
