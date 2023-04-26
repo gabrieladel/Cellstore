@@ -19,6 +19,13 @@ h2 {
 h3{
     color: white;
 }
+
+.precio{
+    color: blueviolet; 
+    font-size: 27px; 
+    display: grid;
+    align-self: flex-end;
+}
 section {
     justify-content: center; 
 }
@@ -32,7 +39,10 @@ section {
 }
 .container{
     display: center;
+    padding: 10px;
+    
 }
+
 .header {
     font-size: 27px;
     padding: 10px;
@@ -60,8 +70,9 @@ section {
 #Contacto { 
     padding: 30px;
     display: flex-start;
-    
+ 
 }
+
   /*Seccion Footer*/
 footer {
     margin: auto;
@@ -71,7 +82,8 @@ footer {
  }
 #volver{
     padding: 30px;
-    display: flex;
+text-align: center;
+
 }
 
 .redes{
